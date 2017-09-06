@@ -1,0 +1,102 @@
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+	position: fixed;
+	margin: auto;
+	width: 55%;
+	top: 30%;
+	height: 45%;
+	-webkit-transform: translate3d(0%, 0, 0);
+	    -ms-transform: translate3d(0%, 0, 0);
+	     -o-transform: translate3d(0%, 0, 0);
+	        transform: translate3d(0%, 0, 0);
+
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+	height: 100%;
+	overflow-y: auto;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+	padding: 15px 15px 80px;
+}
+        
+/*Right*/
+.modal.right.fade .modal-dialog {
+	right: -320px;
+	-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+	   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+	     -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+	        transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+	right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+	border-radius: 200px 0 0 200px;
+	border: none;
+}
+
+.modal-header {
+	border-bottom-color: #EEEEEE;
+	background-color: #FAFAFA;
+}
+
+.modal-content, 
+.modal-body ,
+.modal-body .row 
+{ 
+	height: 100%; 
+}
+
+.img-login 
+{ 
+	width: 100%; 
+	margin-top: 2.5em;
+}
+.btn-facebook
+{
+	color: white;
+	background-color: #3B5998;
+	border-radius: 20px;
+	width: 60%;
+	line-height: 20px;
+}
+.btn-facebook:hover,
+.btn-facebook:active,
+.btn-facebook:focus 
+{ 
+	color: white; background-color: 
+	rgba(59,89,152,.90); 
+}
+
+.btn-facebook i 
+{
+	float: left;
+    margin-top: 3px;
+    border-right: 1px solid white;
+    width: 30px;
+    
+}
+@media (min-width: 1601px) {
+	.modal.right .modal-dialog 
+	{
+		position: fixed;
+		margin: auto;
+		width: 45%;
+		top: 27.5%;
+		height: 35%;
+	}
+	.img-login 
+	{ 
+		width: 100%; 
+		margin-top: 1em;
+	}
+}
+
+

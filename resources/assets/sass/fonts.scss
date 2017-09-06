@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: Raleway-Light;
+    src: url(../fonts/Raleway/Raleway-Light.ttf);
+}
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(../fonts/Raleway/Raleway-Medium.ttf);
+}
+
+.navbar { font-family: Raleway-Bold; }
+
+.dropdown-menu>li>a {  font-family: Raleway-Light; font-size: 15px;}
+
+footer { font-family: Raleway-Light; font-size: 15px; }
+
+.footer-medium { font-family: Raleway-Medium; font-size: 15px; color: white; }
+
+.font-header-index { font-family: Raleway-Light; font-size: 35px; color: white; }
+.font-header-login { font-family: Raleway-Light; font-size: 15px; color: #808080; }
+
+.font-bold   { font-family: Raleway-Bold; }
+.font-light  { font-family: Raleway-Light; }
+.font-medium { font-family: Raleway-Medium; }
+
+input { font-family: Raleway-Light }

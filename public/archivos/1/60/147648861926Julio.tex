@@ -1,0 +1,261 @@
+
+\documentclass{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2953}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{Created=Tuesday, July 26, 2016 17:10:47}
+%TCIDATA{LastRevised=Tuesday, July 26, 2016 19:18:25}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Standard LaTeX\Blank - Standard LaTeX Article">}
+%TCIDATA{CSTFile=40 LaTeX article.cst}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+\input{tcilatex}
+
+\begin{document}
+
+
+INTEGRALES\ DE\ L\'{I}NEA
+
+$u\cdot v=\left\Vert u\right\Vert \left\Vert v\right\Vert \cos \theta $
+
+$dr=\left[ 
+\begin{array}{c}
+dx \\ 
+dy%
+\end{array}%
+\right] $
+
+$\int_{C}F\cdot dr,$ donde $F\left( x,y\right) =\left[ 
+\begin{array}{c}
+x-y \\ 
+x^{2}%
+\end{array}%
+\right] $ y $C$ es la recta que va de $\left( 0,0\right) $ a $\left(
+2,2\right) $
+
+$y=x\qquad dy=dx$
+
+\bigskip $\int_{C}\left( \left( x-y\right) \text{i}+x^{2}\text{j}\right)
+\cdot \left( dx\text{i}+dy\text{j}\right) $
+
+\bigskip $\int_{C}\left[ 
+\begin{array}{c}
+x-y \\ 
+x^{2}%
+\end{array}%
+\right] \cdot \left[ 
+\begin{array}{c}
+dx \\ 
+dy%
+\end{array}%
+\right] =\int \left( x-y\right) dx+\int x^{2}dy$
+
+$=\int \left( x-x\right) dx+\int x^{2}dx=\int_{0}^{2}x^{2}dx=\allowbreak 
+\frac{8}{3}$
+
+-----------------------------------------------
+
+$\int_{C}F\cdot dr$ donde $F=\left[ 
+\begin{array}{c}
+x^{2}+y \\ 
+x-y%
+\end{array}%
+\right] $ y $C$ es la curva $y=x^{2}$ desde $\left( 0,0\right) $ hasta $%
+\left( 1,1\right) $
+
+$y=x^{2}\qquad dy=2xdx$
+
+$\int_{C}\left( x^{2}+y\right) dx+\left( x-y\right) dy$
+
+$\int_{C}\left( x^{2}+x^{2}\right) dx+\left( x-x^{2}\right) 2xdx$
+
+$\int_{0}^{1}\left( \left( x^{2}+x^{2}\right) +\left( x-x^{2}\right)
+2x\right) dx=\allowbreak \frac{5}{6}$
+
+-----------------------------------------------
+
+$r=$\bigskip $\left[ 
+\begin{array}{c}
+x \\ 
+y \\ 
+z%
+\end{array}%
+\right] $
+
+------------------------------------------------
+
+$\int_{C}F\cdot dr$ donde $F=\left[ 
+\begin{array}{c}
+x-z \\ 
+x-y \\ 
+2y+1%
+\end{array}%
+\right] $ y $C$ es la recta que va de $\left( 0,2,-1\right) $ a $\left(
+3,2,6\right) $
+
+\FRAME{dtbpFX}{2.271in}{1.5143in}{0pt}{}{}{Plot}{\special{language
+"Scientific Word";type "MAPLEPLOT";width 2.271in;height 1.5143in;depth
+0pt;display "USEDEF";plot_snapshots TRUE;mustRecompute TRUE;lastEngine
+"MuPAD";xmin "0";xmax "1";ymin "-5";ymax "5";xviewmin "-3E-10";xviewmax
+"3.0000000003";yviewmin "1";yviewmax "3";zviewmin "-1.0000000007";zviewmax
+"6.0000000007";phi 45;theta 45;plottype 5;axesFont "Times New
+Roman,12,0000000000,useDefault,normal";num-x-gridlines 25;num-y-gridlines
+25;plotstyle "patch";axesstyle "normal";axestips FALSE;plotshading
+"XYZ";lighting 0;xis \TEXUX{x};yis \TEXUX{y};var1name \TEXUX{$x$};var2name
+\TEXUX{$y$};function \TEXUX{$\left[
+\MATRIX{1,3}{c}\VR{,,c,,,}{,,,,,}\HR{,,,}\CELL{3t}\CELL{2}\CELL{7t-1}\right]
+$};linestyle 1;pointstyle "point";linethickness 1;lineAttributes
+"Solid";curveStyle "Line";var1range "0,1";var2range "-5,5";surfaceColor
+"[linear:XYZ:RGB:0x00ff0000:0x000000ff]";num-x-gridlines 25;num-y-gridlines
+25;rangeset"X";function \TEXUX{$\left( 0,2,-1\right) $};linestyle
+1;pointplot TRUE;pointstyle "box";linethickness 1;lineAttributes
+"Solid";curveStyle "Point";surfaceColor
+"[linear:XYZ:RGB:0x0000ff00:0x00008000]";function \TEXUX{$\left(
+3,2,6\right) $};linestyle 1;pointplot TRUE;pointstyle "box";linethickness
+1;lineAttributes "Solid";curveStyle "Point";surfaceColor
+"[linear:XYZ:RGB:0x00008000:0x0000ff00]";VCamFile 'OAY2VK0D.xvz';valid_file
+"T";tempfilename 'OAY2VJ05.wmf';tempfile-properties "XPR";}}
+
+$x=3t+0=\allowbreak 3t\qquad \qquad \qquad dx=3dt$
+
+$y=0t+2=\allowbreak 2\qquad \qquad \qquad dy=0$
+
+$z=7t-1\qquad \qquad \qquad \qquad dz=7dt\qquad \qquad 0\leq t\leq 1\left[ 
+\begin{array}{c}
+3t \\ 
+2 \\ 
+7t-1%
+\end{array}%
+\right] $
+
+$\int \left( x-z\right) dx+\left( x-y\right) dy+\left( 2y+1\right) dz$
+
+$\int_{0}^{1}\left( \allowbreak 3t-\left( 7t-1\right) \right) \left(
+3dt\right) +\left( \allowbreak 3t-2\right) \left( 0\right) +\left( 2\left(
+2\right) +1\right) \left( 7dt\right) $
+
+$\int_{0}^{1}\left( \left( \allowbreak 3t-\left( 7t-1\right) \right) \left(
+3\right) +\left( 2\left( 2\right) +1\right) \left( 7\right) \right)
+dt=\allowbreak 32$
+
+$\left( a,b,c\right) ->\left( d,e,f\right) $
+
+$x=\left( d-a\right) t+a\qquad y=\left( e-b\right) t+b\qquad \qquad z=\left(
+f-c\right) t+c$
+
+-----------------------------------------------------------------------------
+
+Integral de l\'{\i}nea sobre funciones escalares
+
+$ds=\left\Vert dr\right\Vert $
+
+$ds=\sqrt{\left( dx\right) ^{2}+\left( dy\right) ^{2}}$
+
+$ds=\sqrt{\left( dx\right) ^{2}+\left( dx\frac{dy}{dx}\right) ^{2}}=\sqrt{%
+\left( dx\right) ^{2}+\left( dx\right) ^{2}\left( \frac{dy}{dx}\right) ^{2}}=
+$
+
+$=\sqrt{\left( 1+\left( \frac{dy}{dx}\right) ^{2}\right) \left( dx\right)
+^{2}}=\sqrt{1+\left( \frac{dy}{dx}\right) ^{2}}dx$
+
+$ds=\sqrt{1+\left( \frac{dx}{dy}\right) ^{2}}dy$
+
+$ds=\sqrt{\left( \frac{dx}{dt}dt\right) ^{2}+\left( \frac{dy}{dt}dt\right)
+^{2}}=\sqrt{\left( \frac{dx}{dt}\right) ^{2}\left( dt\right) ^{2}+\left( 
+\frac{dy}{dt}\right) ^{2}\left( dt\right) ^{2}}$
+
+$=\sqrt{\left( \left( \frac{dx}{dt}\right) ^{2}+\left( \frac{dy}{dt}\right)
+^{2}\right) \left( dt\right) ^{2}}=\sqrt{\left( \frac{dx}{dt}\right)
+^{2}+\left( \frac{dy}{dt}\right) ^{2}}dt$
+
+$\int_{C}yds$, donde $C$ es $y=\sin x$ desde $\left( 0,0\right) $ a $\left(
+\pi ,0\right) $
+
+$\frac{dy}{dx}=\cos x$
+
+$\int_{C}y\sqrt{1+\left( \frac{dy}{dx}\right) ^{2}}dx=\int_{0}^{\pi }\sin x%
+\sqrt{1+\left( \cos x\right) ^{2}}dx=\allowbreak 1.\,\allowbreak
+338\,487\,7\allowbreak $
+
+------------------------------------------------
+
+$\int_{C}\left( x+y\right) ds$, donde $C$ es la curva $r=\left( t,t^{2},%
+\sqrt{t}\right) $ con $1\leq t\leq 4$
+
+$x=t\qquad \qquad \frac{dx}{dt}=1\qquad \qquad $
+
+$y=t^{2}\qquad \qquad \frac{dy}{dt}=2t$
+
+$z=\sqrt{t}\qquad \qquad \frac{dz}{dt}=\frac{1}{2\sqrt{t}}$
+
+$\int_{C}\left( x+y\right) \sqrt{\left( \frac{dx}{dt}\right) ^{2}+\left( 
+\frac{dy}{dt}\right) ^{2}+\left( \frac{dz}{dt}\right) ^{2}}dt$
+
+$\int_{1}^{4}\left( t+t^{2}\right) \sqrt{\left( 1\right) ^{2}+\left(
+2t\right) ^{2}+\left( \frac{1}{2\sqrt{t}}\right) ^{2}}dt=\allowbreak
+172.\,\allowbreak 357\,79\allowbreak $
+
+------------------------------------------------
+
+\textquestiondown C\'{o}mo hacer una integral de l\'{\i}nea cuando el campo
+es conservativo?
+
+$\int_{C}F\cdot dr$, donde $F=\left[ 
+\begin{array}{c}
+2xy^{2} \\ 
+2x^{2}y%
+\end{array}%
+\right] $, donde $C$ es $y=2x^{2}-1$ con $0\leq x\leq 1$
+
+$\left( 0,-1\right) $ a $\left( 1,1\right) $
+
+M\'{e}todo convencional:
+
+$y=2x^{2}-1,dy=4xdx$
+
+$\int 2xy^{2}dx+2x^{2}ydy=\int_{0}^{1}2x\left( 2x^{2}-1\right)
+^{2}dx+2x^{2}\left( 2x^{2}-1\right) 4xdx=$
+
+$=\int_{0}^{1}\left( 2x\left( 2x^{2}-1\right) ^{2}+2x^{2}\left(
+2x^{2}-1\right) 4x\right) dx=\allowbreak 1$
+
+Verifiquemos si F es conservativo:
+
+$\frac{\partial }{\partial y}2xy^{2}=\allowbreak 4xy\qquad \qquad \qquad
+\qquad \qquad \frac{\partial }{\partial x}2x^{2}y=\allowbreak 4xy\qquad SI\
+ES$
+
+$\int 2xy^{2}dx=\allowbreak x^{2}y^{2}\qquad \qquad \qquad \qquad \qquad
+\int 2x^{2}ydy=\allowbreak x^{2}y^{2}$
+
+$f\left( x,y\right) =x^{2}y^{2}$
+
+$\int_{C}F\cdot dr=\left[ x^{2}y^{2}\right] _{\left( 1,1\right) }-\left[
+x^{2}y^{2}\right] _{\left( 0,-1\right) }=\left( 1^{2}1^{2}\right) -\left(
+0^{2}\left( -1\right) ^{2}\right) =\allowbreak 1$
+
+\end{document}
